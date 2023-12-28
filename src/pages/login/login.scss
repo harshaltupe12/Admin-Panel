@@ -1,0 +1,41 @@
+.login{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+    form{
+        background: purple;
+        border-radius: 10px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+        input{
+            width: 300px;
+            height: 30px;
+            outline: none;
+            border: none;
+            border-radius: 5px;
+        }
+
+        button{
+            height: 30px;
+            border-radius: 5px;
+            outline: none;
+            border: none;
+            cursor: pointer;
+
+        }
+        button:hover{
+            background: rgba(255, 0, 0, 0.326);
+            color: whitesmoke;
+        }
+    }
+    span{
+        font-size: 14px;
+        color: red;
+    }
+}
